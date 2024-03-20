@@ -1,11 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap'); */
+
 
 
 @font-face {
     font-family: 'Marcellus';
-    src: url('Marcellus-Regular.woff2') format('woff2'),
-        url('Marcellus-Regular.woff') format('woff'),
-        url("../fonts/marcellus-Regular.ttf") format("truetype");
+    src: url('../fonts/Marcellus/Marcellus-Regular.woff2') format('woff2'),
+        url('../fonts/Marcellus/Marcellus-Regular.woff') format('woff'),
+        url("../fonts/Marcellus/Marcellus-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -13,31 +13,38 @@
 
 @font-face {
     font-family: 'Karla';
-    src: url('Karla-Regular.woff2') format('woff2'),
-        url('Karla-Regular.woff') format('woff');
+    src: url('../fonts/Karla/Karla-Regular.woff2') format('woff2'),
+        url('../fonts/Karla/Karla-Regular.woff') format('woff'),
+        url('../fonts/Karla/Karla-Italic-VariableFont_wght.ttf') format("truetype"); 
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'EnterCommand';
-    src: url('EnterCommand.woff2') format('woff2'),
-        url('EnterCommand.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Karla", sans-serif; 
 }
 
+:root {
+    --primary-color: darkgreen;
+    --secondary-color: white;
+    --text-color: black;
+    --hover-color: olive;
+   
+}
 h1 {
     font-family: 'Marcellus', cursive;
     font-size: 3rem;
     text-align: center;
-    
+
+}
+
+nav {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
