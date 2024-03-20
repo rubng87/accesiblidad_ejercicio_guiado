@@ -36,16 +36,30 @@
     --secondary-color: white;
     --text-color: black;
     --hover-color: olive;
+    --background-form-color : grey;
    
 }
-h1 {
-    font-family: 'Marcellus', cursive;
-    font-size: 3rem;
-    text-align: center;
 
+h1, h2 {
+    font-family: 'Marcellus', cursive; 
 }
 
-nav {
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+nav, footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -75,4 +89,130 @@ nav ul li a {
 
 header {
     text-align: center;
+    
+}
+
+header img {
+    width: 100%;
+}
+
+main section:first-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+main img {
+    width: 100%;
+}
+
+#habitaciones ul {
+    padding: 1rem;
+
+}
+
+#restaurante p {
+    margin-bottom: .5rem;
+}
+
+.section-form{
+    /* background-color: var(--background-form-color); */
+    background-color: #4F4F4F;
+    
+    color: white;
+    padding: 2rem 0;
+
+    h2 {
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
+
+.section-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    label {
+        display: block;
+        margin-bottom: .5rem;
+    }
+
+    fieldset {
+        padding: 1rem;
+    }
+
+    input {
+        width: 100%;
+        padding:.5rem;
+        text-align: right;
+       
+    }
+
+    button {
+        padding: .5rem 3rem;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+    }
+
+    button:hover {
+        background-color: var(--hover-color);
+        border-color: var(--secondary-color);
+    }
+
+    a{
+        color: white;
+    }
+}
+
+footer div {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    color: var(--secondary-color);
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+}
+
+#nosotros ul {
+
+
+    li {
+        margin-bottom: .5rem;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+#app img {
+    width: 60%;
+}
+
+#siguenos ul {
+    display: flex;
+    justify-content: right;
+
+    img {
+        width: 40%;
+    }
+}
+
+.volver-inicio {
+    text-align: right;
+
+    a{
+        display: block;
+    }
 }

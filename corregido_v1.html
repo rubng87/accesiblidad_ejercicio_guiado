@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8" />
@@ -11,94 +11,107 @@
 
 <body>
 
-    <nav>
-        <ul class="barra">
-            <li><a href="#inicio">Inicio</a></li>
+    <nav id="inicio">
+        <ul class="container">
+            <li><a href="#">Inicio</a></li>
             <li><a href="#habitaciones">Habitaciones</a></li>
             <li><a href="#restaurante">Restaurante</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
-    <header>
-        <h1>Hotel Mas dels Avets</h1>
+    <header class="container">
+        <h1 tabindex="">Hotel Mas dels Avets</h1>
         <img src="img/hotel.jpg"
             alt="El hotel Mas del Avets se encuentra enclavado entre montañas y bosques. Dsiponemos de todos los servicios, incluida piscina.">
     </header>
 
-    <main></main>
-
-    <section>
-        <img src="img/dormitori.avif"
-            alt="Nuestros dormitorios son extremadamente confortables y están perfectamente equipados." />
-        <div id="habitaciones">
-            <h2>Nuestras habitaciones</h2>
-            <p>Todas nuestras habitaciones disponen de: </p>
-            <ul>
-                <li>Baño privado.</li>
-                <li>TV conectada a satélite</li>
-                <li>Aire Accondicionado</li>
-                <li>Caja de seguridad</li>
-            </ul>
-        </div>
-
-
-        <img src="img/menjador.avif" alt="Sala principal del restaurante, con capacidad para muchos comensales." />
-        <div id="restaurante">
-            <h2>El Restaurante</h2>
-            <p>Ofrecemos menús diarios con productos de temporada</p>
-            <p>Le recomendamos consulte nuestra excelente carta de vinos</p>
-            <p>Elaboramos postres artesanos diariamente</p>
-        </div>
-    </section>
-
-    <section>
-        <h2>Contacte con nosotros</h2>
-        <form>
-            <fieldset>
-                <legend>Datos Personales</legend>
-                <label>Nombre : <input type="text" placeholder="Nombre"> </label>
-                <label>Apellidos : <input type="text" placeholder="Apellido"> </label>
-            </fieldset>
+    <main>
+        <section class="container">
+            <img src="img/dormitori.avif"
+                alt="Nuestros dormitorios son extremadamente confortables y están perfectamente equipados." />
+            <div id="habitaciones">
+                <h2>Nuestras habitaciones</h2>
+                <p>Todas nuestras habitaciones disponen de: </p>
+                <ul>
+                    <li>Baño privado.</li>
+                    <li>TV conectada a satélite</li>
+                    <li>Aire Acondicionado</li>
+                    <li>Caja de seguridad</li>
+                </ul>
+                <p class="volver-inicio"><a href="#inicio">Volver al inicio</a></p>
+            </div>
 
 
-            <fieldset>
-                <legend>Datos de la reserva</legend>
-                <label>Fecha entrada : <input type="date" /></label>
-                <label>Fecha salida : <input type="date" /></label>
-                <button class="boton" type="submit">Enviar</button>
-            </fieldset>
-        </form>
-    </section>
+            <img src="img/menjador.avif" alt="Sala principal del restaurante, con capacidad para muchos comensales." />
+            <div id="restaurante">
+                <h2>El Restaurante</h2>
+                <p>Ofrecemos menús diarios con productos de temporada</p>
+                <p>Le recomendamos consulte nuestra excelente carta de vinos</p>
+                <p>Elaboramos postres artesanos diariamente</p>
+                <p class="volver-inicio"><a href="#inicio">Volver al inicio</a></p>
+            </div>
+        </section>
+
+        <section class="section-form" id="#Contacto">
+            <h2>Contacte con nosotros</h2>
+            <form class="container">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <label>Nombre : <input type="text" placeholder="Nombre"> </label>
+                    <label>Apellidos : <input type="text" placeholder="Apellido"> </label>
+                </fieldset>
 
 
+                <fieldset>
+                    <legend>Datos de la reserva</legend>
+                    <label>Fecha entrada : <input type="date" /></label>
+                    <label>Fecha salida : <input type="date" /></label>
+                </fieldset>
+                <div>
+                    <button class="boton" type="submit">Enviar</button>
+                </div>
+                <p class="volver-inicio"><a href="#inicio">Volver al inicio</a></p>
+
+            </form>
+        </section>
+    </main>
     <footer>
-        <section id="nosotros">
-            <h2>SOBRE NOSOTROS</h2>
-            <ul>
-                <li></li><a href="#">¿Quiénes somos?</a></li>
-                <li><a href="#">Blog Hoteles Rurales</a></li>
-                <li><a href="#">Condiciones legales</a></li>
-                <li><a href="#">Política de cookies</a></li>
-            </ul>
-        </section>
+        <div class="">
+            <section id="nosotros">
+                <h2>SOBRE NOSOTROS</h2>
+                <ul>
+                    <li></li><a href="#">¿Quiénes somos?</a></li>
+                    <li><a href="#">Blog Hoteles Rurales</a></li>
+                    <li><a href="#">Condiciones legales</a></li>
+                    <li><a href="#">Política de cookies</a></li>
+                </ul>
+            </section>
 
-        <section id="app">
-            <h2>DESCARGA LA APP</h2>
-            <ul>
-                <li><a href="#" aria-label="Enlace a Google Play"><img src="img/google-play2.png" alt=""></a></li>
-                <li><a href="#" aria-label="Enlace a la Apple Store"><img src="img/apple-store2.png" alt=""></a></li>
-            </ul>
-        </section>
+            <section id="app">
+                <h2>DESCARGA LA APP</h2>
+                <ul>
+                    <li><a href="#" aria-label="Enlace a Google Play"><img src="img/google-play2.png" alt=""></a></li>
+                    <li><a href="#" aria-label="Enlace a la Apple Store"><img src="img/apple-store2.png" alt=""></a>
+                    </li>
+                </ul>
+            </section>
 
-        <section id="siguenos">
-            <h2>SÍGUENOS</h2>
-            <ul>
-                <li><a href="#" aria-label="Enlace a Facebook"><img src="img/png-transparent-facebook.png" alt=""></a></li>
-                <li><a href="#" aria-label="Enalce a Twitter"><img src="img/png-transparent-twitter.png" alt=""></a></li>
-                <li><a href="#" aria-label="Enlace a Instagram"><img src="img/png-transparent-instagram.png" alt=""></a></li>
-            </ul>
-        </section>
+            <section id="siguenos">
+                <h2>SÍGUENOS</h2>
+                <ul>
+                    <li><a href="#" aria-label="Enlace a Facebook"><img src="img/png-transparent-facebook.png"
+                                alt=""></a>
+                    </li>
+                    <li><a href="#" aria-label="Enalce a Twitter"><img src="img/png-transparent-twitter.png" alt=""></a>
+                    </li>
+                    <li><a href="#" aria-label="Enlace a Instagram"><img src="img/png-transparent-instagram.png"
+                                alt=""></a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
     </footer>
 
 
