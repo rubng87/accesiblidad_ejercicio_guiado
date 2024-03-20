@@ -1,92 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/styleArreglo.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rubén">
+  <meta name="description" content="Hotel rural mas dels avets">
+  <meta name="keywords" content="cafés, café naturals">
+  <meta name="copyright" content="Rubén">
+  <meta name="robots" content="noindex">
+  <title>Hotel Rural</title>
+  <link rel="stylesheet" href="css/styleArreglo.css">
+  <link rel="shortcut icon" href="img/favicon/arbol.png" type="image/x-icon">
 </head>
 
 <body>
-  <div class="barra">
-    <div><a href="#inicio">Inicio</a></div>
-    <div><a href="#habitaciones">Habitaciones</a></div>
-    <div><a href="#restaurante">Restaurante</a></div>
-    <div><a href="#contacto">Contacto</a></div>
-  </div>
-  <div class="title">
-    <p><strong>Hotel Mas dels Avets</strong></p>
-  </div>
-  <div class="foto-ppal container">
-    <img src="img/hotel.jpg" />
-  </div>
-  <div class="detalles container">
-    <img src="img/dormitori.avif" />
-    <div id="habitaciones">
-      <p><strong>Nuestras habitaciones</strong></p>
-      <p>
-        Todas nuestras habitaciones disponen de: <br />
-        1. Baño privado <br />
-        2. TV conectada a satélite <br />
-        3. Aire Accondicionado <br />
-        4. Caja de seguridad <br />
-      </p>
-    </div>
-  </div>
-  <div class="detalles container">
-    <img src="img/menjador.avif" />
-    <div id="restaurante">
-      <p><strong>El Restaurante</strong></p>
-      <div>Ofrecemos menús diarios con productos de temporada</div>
-      <div>Le recomendamos consulte nuestra excelente carta de vinos</div>
-      <div>Elaboramos postres artesanos diariamente</div>
-    </div>
-  </div>
-  <div class="contacto" id="contacto">
-    <p><strong>Contacte con nosotros</strong></p>
-    <div>
-      <form class="detalles container">
-        <div>
-          <p>Datos Personales</p>
-          <p>Nombre : <input type="text" placeholder="Nombre" /></p>
-          <p>Apellido : <input type="text" placeholder="Apellido" /></p>
-        </div>
-        <div>
-          <p>Datos de la reserva</p>
-          <p>Fecha entrada : <input type="date" /></p>
-          <p>Fecha salida : <input type="date" /></p>
-          <div class="boton">Enviar</div>
-        </div>
-      </form>
-    </div>
-  </div>
 
-  <div class="final">
-    <div id="nosotros">
-      SOBRE NOSOTROS
-      <div>
-        <p><a href="#">¿Quiénes somos?</a></p>
-        <p><a href="#">Blog Hoteles Rurales</a></p>
-        <p><a href="#">Condiciones legales</a></p>
-        <p><a href="#">Política de cookies</a></p>
+  <nav>
+    <ul class="barra">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#habitaciones">Habitaciones</a></li>
+      <li><a href="#restaurante">Restaurante</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container">
+      <h1>Hotel Mas dels Avets</h1>
+    </div>
+    <figure class="foto-ppal container">
+      <img src="img/hotel.jpg" />
+    </figure>
+    <div class="detalles container">
+      <img src="img/dormitori.avif" />
+      <div id="habitaciones">
+        <h2>Nuestras habitaciones</h2>
+        
+        <ol>
+          <li>Baño privado</li>
+          <li>TV conectada a satélite</li>
+          <li>Aire Accondicionado</li>
+          <li>Caja de seguridad</li>
+        </ol>
+        
       </div>
     </div>
-    <div id="app">
-      DESCARGA LA APP
-      <div>
-        <p><a href=""><img src="img/google-play2.png"></a></p>
-        <p><a href=""><img src="img/apple-store2.png"></a></p>
+    <div class="detalles container">
+      <img src="img/menjador.avif" />
+      <div id="restaurante">
+        <h2>El Restaurante</h2>
+        <div>Ofrecemos menús diarios con productos de temporada</div>
+        <div>Le recomendamos consulte nuestra excelente carta de vinos</div>
+        <div>Elaboramos postres artesanos diariamente</div>
       </div>
     </div>
-    <div id="siguenos">
-      SÍGUENOS
+    <div class="contacto" id="contacto">
+      <h2 class="h2-centro">Contacte con nosotros</h2>
       <div>
-        <p><a href="#"><img src="img/png-transparent-facebook.png"></a></p>
-        <p><a href="#"><img src="img/png-transparent-twitter.png"></a></p>
-        <p><a href="#"><img src="img/png-transparent-instagram.png"></a></p>
+        <form class="detalles container">
+          
+          <div>
+            <p>Datos Personales</p>
+            <p>Nombre : <input type="text" placeholder="Nombre" /></p>
+            <p>Apellido : <input type="text" placeholder="Apellido" /></p>
+          </div>
+          <div>
+            <p>Datos de la reserva</p>
+            <p>Fecha entrada : <input type="date" /></p>
+            <p>Fecha salida : <input type="date" /></p>
+            <button class="boton">Enviar</button>
+          </div>
+        </form>
       </div>
     </div>
-  </div>
+  </main>
+
+  <footer>
+    <div class="final">
+      <div id="nosotros">
+        SOBRE NOSOTROS
+        <div>
+          <p><a href="#">¿Quiénes somos?</a></p>
+          <p><a href="#">Blog Hoteles Rurales</a></p>
+          <p><a href="#">Condiciones legales</a></p>
+          <p><a href="#">Política de cookies</a></p>
+        </div>
+      </div>
+      <div id="app">
+        DESCARGA LA APP
+        <div>
+          <p><a href=""><img src="img/google-play2.png"></a></p>
+          <p><a href=""><img src="img/apple-store2.png"></a></p>
+        </div>
+      </div>
+      <div id="siguenos">
+        SÍGUENOS
+        <div>
+          <p><a href="#"><img src="img/png-transparent-facebook.png"></a></p>
+          <p><a href="#"><img src="img/png-transparent-twitter.png"></a></p>
+          <p><a href="#"><img src="img/png-transparent-instagram.png"></a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 
 </html>

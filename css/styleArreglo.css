@@ -4,17 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Waiting for the Sunrise", cursive;
+  /* font-family: "Waiting for the Sunrise", cursive; */
+  font-family: Arial, Helvetica, sans-serif;
   
   font-weight: 400;
   font-style: normal;
 }
 
+
 .barra {
   display: flex;
   justify-content: space-around;
+  text-decoration: none;
   background-color: rgb(163, 236, 163);
-  color: gray;
+  /* color: gray; */
   padding: 5px;
 }
 
@@ -23,7 +26,7 @@
   color: white;
   padding: 5px;
   font-size: 28px;
-  font-family: "Love Light", cursive;
+  /* font-family: "Love Light", cursive; */
 }
 
 .barra a:hover {
@@ -32,6 +35,21 @@
 .container {
   margin: 1rem auto;
   max-width: 1200px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 50px;
+}
+
+.h2-centro {
+  text-align: center;
 }
 
 .title {
@@ -56,7 +74,7 @@
     font-size: 2rem;
     color: burlywood;
     margin-bottom: 2rem;
-    font-family: "Love Light", cursive;
+    /* font-family: "Love Light", cursive; */
   }
 
   p,
@@ -68,7 +86,7 @@
 }
 
 .contacto {
-  background-color: brown;
+  background-color: rgb(236, 115, 115);
 
   p strong {
     font-weight: bold;
@@ -86,6 +104,7 @@
 }
 
 .boton {
+  font-size: 20px;
   margin-top: 1rem;
   padding: 5px 20px;
   text-align: left;
@@ -103,9 +122,9 @@
 .final {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: rgb(163, 236, 163);
+  background-color: rgb(56, 147, 56);
   padding: 2rem 5%;
-  color: beige;
+  color: white;
 }
 
 #nosotros {
@@ -114,7 +133,7 @@
   a {
     font-size: inherit;
     text-decoration: none;
-    color:beige;
+    color:white;
   }
 }
 
