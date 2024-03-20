@@ -1,0 +1,19 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap'); */
+
+@font-face {
+    font-family: "Marcellus";
+    src: url("../fonts/marcellus-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Marcellus', cursive;
+    font-size: 3rem;
+    text-align: center;
+    
+}
