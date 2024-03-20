@@ -1,11 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap'); */
-
-
 @font-face {
     font-family: 'Marcellus';
     src: url('Marcellus-Regular.woff2') format('woff2'),
-        url('Marcellus-Regular.woff') format('woff'),
-        url("../fonts/marcellus-Regular.ttf") format("truetype");
+        url('Marcellus-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -29,15 +25,3 @@
     font-display: swap;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h1 {
-    font-family: 'Marcellus', cursive;
-    font-size: 3rem;
-    text-align: center;
-    
-}
