@@ -1,0 +1,19 @@
+1. Borrar el CSS
+2. Revisar el lang (es) -> español, el title y favicon
+3. Revisar y poner los "alt" de las imagenes
+4. Poner las etiquetas semanticas (Ejemplo: header, main, footer)
+5. Respetar las jerarquias de los "H"
+6. Poner Tabindex en los textos, o sino no se leeran
+7. Poner aria labels (ej: en logos)
+8. Poner aria required (en campos obligatorios)
+9. poner puntos finales en los textos para determinar el find de los parrafos, listas, etc...
+10. Poner una tipografia y tamaño  de letra accesible
+11. Poner contrastes adecuados para que sea facil la lectura (USAR WAVE Y LIGHTHOUSE)
+12. Skip-link
+13. Enlaces al inicio
+14. Usar iconos y textos para complementar el significado del color
+15. Destacar los "enlaces" cuando pasas con el tabulador:
+
+	a:focus {
+		text-decoration: underline
+	}
